@@ -1,2 +1,2 @@
 # cv
-theme: minima
+teme: minima
