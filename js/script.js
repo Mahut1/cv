@@ -1,19 +1,10 @@
-  
-document.querySelectorAll('a.yakor').forEach(link=>{
-    link.addEventListener('click', function(e){
-        e.preventDefault()
-
-        const href = this.getAttribute('href')
-
-        const scrollTarget = document.getElementById(href)
-
-        const topOffset = 0
-        const elementPosition = scrollTarget.getBoundingClientRect().top
-        const offsetPosition = elementPosition - topOffset
-        
-        window.scrollBy({
-            top: offsetPosition,
-            behavior: 'smooth'
-        })
-    })
-})
+var links = document.querySelectorAll('.file');
+    // Вешаем обработчик "click" на все элементы с классом file
+    for (var i = 0; i < links.length; i++) {
+        links[i].addEventListener('click', function(e) {
+            // Отменяем событие (преход по ссылке или submit) если "Отмена"
+            if (!confirm('Точно будем качать?')) {
+                e.preventDefault();
+            }
+        }, false);
+    }
