@@ -1,0 +1,162 @@
+@media  screen and (max-width: 1200px){
+nav ul li{
+    font-size: 14px;
+    margin-right: 5px;
+}
+nav{
+        max-width: 95%;
+    }
+.logo{
+        font-size: 25px;
+        max-width: 150px;
+    }
+.btn{
+    font-size: 14px;
+    padding: 5px 38px;
+}
+.about-text h2{
+    font-size: 50px;
+    margin-right: 20px;
+}
+.about-text h5{
+    font-size: 15px;
+}
+.content h1{
+ font-size: 30px;
+}
+.content h3{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.title h2{
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+}
+.card{
+    max-height: 300px;
+}
+.hard-skills{
+    padding: 0px 0px;
+}
+.edu-card{
+    height: 700px;
+}
+.card-link{
+    display: inline-block;
+    width: 100%;}
+.card-link i{
+    font-size: 50px;
+    margin:10px 75px 20px;
+}
+}@media  screen and (max-width: 1200px){
+nav ul li{
+    font-size: 14px;
+    margin-right: 5px;
+}
+nav{
+        max-width: 95%;
+    }
+.logo{
+        font-size: 25px;
+        max-width: 150px;
+    }
+.btn{
+    font-size: 14px;
+    padding: 5px 38px;
+}
+.about-text h2{
+    font-size: 50px;
+    margin-right: 20px;
+}
+.about-text h5{
+    font-size: 15px;
+}
+.content h1{
+ font-size: 30px;
+}
+.content h3{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.title h2{
+    font-size: 50px;
+    width: auto;
+}
+.card{
+    max-height: 300px;
+}
+.hard-skills{
+    padding: 0px 0px;
+}
+.edu-card{
+    height: 700px;
+}
+.card-link{
+    display: inline-block;
+    width: 100%;}
+.card-link i{
+    font-size: 50px;
+    margin:10px 75px 20px;
+}
+}
+@media  screen and (max-width: 992px){
+    nav ul li{
+        font-size: 14px;
+        padding: 0px;
+    }
+    nav{
+            max-width: 95%;
+        }
+    .logo{
+            font-size: 25px;
+            max-width: 150px;
+        }
+    .btn{
+        font-size: 14px;
+    }
+    .newslatter a{
+        font-size: 10px;
+    }
+    .about-text h2{
+        font-size: 50px;
+        margin-right: 20px;
+    }
+    .about-text h5{
+        font-size: 15px;
+    }
+    .content h1{
+     font-size: 30px;
+    }
+    .content h3{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .title h2{
+        font-size: 45px;
+        width: auto;
+        margin: 30px auto;
+    }
+    .card{
+        max-height: 300px;
+    }
+    .hard-skills{
+        padding: 0px 0px;
+    }
+    .edu-card{
+        height: 800px;
+    }
+    .card-link{
+        display: inline-block;
+        width: 100%;}
+    .card-link i{
+        font-size: 40px;
+        margin:10px 75px 20px;
+    }
+    .box{
+        min-height: 400px;
+    }
+    .card2{
+    height: 700px;
+    }
+}
